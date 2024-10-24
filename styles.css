@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #433e3e;
+    margin: 10;
+    padding: 0;
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+.mode-selection {
+    margin-bottom: 40px;
+}
+
+button {
+    margin: 0 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 2cap;
+    cursor: pointer;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    border: 1px solid #cda1a1;
+}
+
+/* Color X in red and O in black */
+.cell.X {
+    color: red;
+}
+
+.cell.O {
+    color: black;
+}
+
+.message {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+#restart {
+    display: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
