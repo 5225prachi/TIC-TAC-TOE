@@ -1,9 +1,11 @@
 # 🎮 Tic Tac Toe Game
 
 
+
 **✨ Overview**
 
 Welcome to the Tic Tac Toe Game! This interactive web application allows players to enjoy the classic game of Tic Tac Toe against a friend or challenge the computer. With a sleek design and engaging gameplay, it’s perfect for players of all ages.
+
 
 
 **🚀 Features**
@@ -21,6 +23,7 @@ Welcome to the Tic Tac Toe Game! This interactive web application allows players
 🎉 User-Friendly Interface: Simple and intuitive layout for quick and easy gameplay.
 
 
+
 **🛠️ Technologies Used**
 
 HTML: Structure of the game interface.
@@ -28,6 +31,10 @@ HTML: Structure of the game interface.
 CSS: Styling for a visually appealing and engaging experience.
 
 JavaScript: Implements game logic, player turns, and AI functionality.
+
+
+![TIC-TAC-TOE](https://github.com/5225prachi/TIC-TAC-TOE/blob/main/TIC-TAC-TOE.png)
+
 
 
 **🌍 Live Demo**
